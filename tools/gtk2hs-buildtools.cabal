@@ -120,7 +120,7 @@ Library
           cpp-options:   -DUSE_GCLOSURE_SIGNALS_IMPL
 
         if os(darwin)
-          cpp-options:   -D_C2HS_CPP_IS_GCC
+          cpp-options:   -D_C2HS_CPP_IS_GCC -D__attribute__(x)=
         else
           cpp-options:   -D_C2HS_CPP_LANG_SINGLE
 
